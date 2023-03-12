@@ -61,11 +61,16 @@ GET api/v1/{post_id}/comments/{id}/ - Получение комментария 
 
 в body
 
-{
+<sup> {
+  
 "text": "string",
+  
 "image": "string",
+  
 "group": 0
+  
 }
+</sup> 
 
 #### Обновление публикации: ####
 
@@ -73,11 +78,16 @@ GET api/v1/{post_id}/comments/{id}/ - Получение комментария 
 
 в body
 
-{
+<sup> {
+  
 "text": "string",
+  
 "image": "string",
+  
 "group": 0
+  
 }
+</sup> 
 
 #### Частичное обновление публикации: ####
 
@@ -85,11 +95,16 @@ GET api/v1/{post_id}/comments/{id}/ - Получение комментария 
 
 в body
 
-{
+<sup> {
+  
 "text": "string",
+  
 "image": "string",
+  
 "group": 0
+  
 }
+</sup> 
 
 #### Частичное обновление публикации: ####
 
@@ -115,10 +130,14 @@ GET api/v1/{post_id}/comments/{id}/ - Получение комментария 
 
 Передав в body данные пользователя (например в postman):
 
-{
+<sup> {
+  
 "username": "string",
+  
 "password": "string"
+  
 }
+</sup> 
 
 Полученный токен добавляем в headers (postman), после чего буду доступны все функции проекта:
 

@@ -83,7 +83,6 @@ class FollowViewSet(mixins.ListModelMixin,
         if follower is not None:
             user_2 = User.objects.get(username=follower)
             queryset = queryset.filter(following=user_2)
-        # return queryset
 
         page = self.paginate_queryset(queryset)
         if page is not None:
